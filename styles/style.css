@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "monserrat";
+    src: url(../assets/fonts/montserrat-variablefont_wght.ttf)
+}
+@font-face {
+    font-family: "lora";
+    src: url(../assets/fonts/lora-variablefont_wght.ttf);
+}
+@font-face {
+    font-family: "hind";
+    src: url(../assets/fonts/hindmadurai-regular.ttf);
+}
+body {
+    background-color: grey;
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    font-family: "monserrat", serif;
+}
+p {
+    color: black;
+    text-align: center;
+    font-size: 30px;   
+    font-family: "lora", serif;
+}
+a.a {
+    color: purple;
+    text-align:left;
+    font-size: 25px;  
+    font-family: "lora", serif;
+    text-decoration:none;
+}
+h2 {
+    color: turquoise;
+    text-align: center;
+    font-size: 60px;
+    font-family: "hind";
+
+}
+h3 {
+    font-size: 30px;
+    font-family: "hind", serif;
+    text-decoration: underline;
+}
+h4 {
+    font-size: 20px;
+    font-family: "hind", serif;
+}
+.h4a {
+    color: purple;
+    /*text-align:left;*/
+    font-size: 18px;  
+    font-family: "hind", serif;
+}
+.qsm {
+    color: purple;
+    font-size: 30px;  
+    font-family: "hind", serif;
+}
+.ca{
+    color: purple;
+    font-size: 30px;  
+    font-family: "hind", serif;
+}
+.divMap{
+    max-width: fit-content;
+    margin-inline: auto;
+}
+.imgContainer{
+    margin-left: 300px;
+    float: left;
+}
+.footer{
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    float: left;
+}
+.ulFooter{
+    float: left;
+    margin-top: 220px;
+    margin-left: 300px;
+    text-align: center;
+}
+.pMap{
+    color: turquoise;
+    font-family: "hind";
+    font-size: 60px;
+}
+.ulProductos{
+    max-width: fit-content;
+    margin-inline: auto;
+}
