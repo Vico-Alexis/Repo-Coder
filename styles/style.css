@@ -173,7 +173,6 @@ h4 {
     margin-top: 5%;
     margin-left: 13%;
     margin-bottom: 13%;
-  
 }
 .carousel{
     margin-top: 3rem;
@@ -186,4 +185,14 @@ h4 {
 }
 .divIcons{
     text-align: center;
+}
+div.navArt{
+    float: left;
+    margin-right: 5%;
+    padding-left: 1%;
+}
+.cardArt{
+    margin-left: 2%;
+    margin-right: 20%;
+    margin-bottom: 60%;
 }
