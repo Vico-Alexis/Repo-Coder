@@ -1,0 +1,39 @@
+@media (min-width: 768px) /* Desktop */{
+
+    .container {
+        display: flex;
+        align-items: center;
+        margin-top: 5rem;
+        gap: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    .imgFooter {
+        width: 60%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 2rem;
+    }
+
+    
+}
+
+@media (max-width: 768px) /*Mobile*/ {
+
+    .container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        gap: 0.1rem;
+    }
+
+    .imgFooter {
+        width: 60%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 2rem;
+    }
+}

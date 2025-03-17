@@ -1,50 +1,5 @@
-@font-face {
-    font-family: "monserrat";
-    src: url(../assets/fonts/montserrat-variablefont_wght.ttf)
-}
-
-@font-face {
-    font-family: "lora";
-    src: url(../assets/fonts/lora-variablefont_wght.ttf);
-}
-
-@font-face {
-    font-family: "hind";
-    src: url(../assets/fonts/hindmadurai-regular.ttf);
-}
-
 @media (min-width: 768px) /* Desktop */ {
-    
-    .clipped {
-        border: 0;
-        position: absolute;
-        z-index: -1;
-        clip: rect(0 0 0 0);
-        -webkit-clip-path: inset(50%);
-        clip-path: inset(50%);
-        display: block;
-        margin: 0 -1px -1px 0;
-        overflow: hidden;
-        padding: 0;
-    }
 
-    h1 {
-        display: block;
-        font-size: 2em;
-        margin-block-start: 0.67em;
-        margin-block-end: 0.67em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        font-weight: bold;
-        unicode-bidi: isolate;
-    }
-    
-    .pHeader{
-        color: black;
-        text-align: center;
-        font-size: 3vh;
-        font-family: "lora", serif;
-    }
     p {
         color: black;
         text-align: center;
@@ -179,29 +134,7 @@
         }
     }
 
-    .imgHeader {
-        height: 20%;
-        width: 30%;
-        margin-left: 35%;
-        margin-right: 35%;
-    }
-
-    .container {
-        display: flex;
-        align-items: center;
-        margin-top: 5rem;
-        gap: 2rem;
-        margin-bottom: 5rem;
-    }
-
-    .imgFooter {
-        width: 60%;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 2rem;
-    }
-
-    .cardSec{
+    .cardSec {
         display: list-item;
         justify-content: center;
     }
@@ -216,8 +149,8 @@
     .card {
         width: 14rem;
         height: 30rem;
-        display:flex;
-        float:left;
+        display: flex;
+        float: left;
         text-align: center;
         margin-top: 5%;
         margin-left: 10%;
@@ -225,7 +158,7 @@
         margin-bottom: 10%;
     }
 
-    .card2{
+    .card2 {
         margin-left: 1px !important;
     }
 
@@ -257,7 +190,7 @@
         margin-bottom: 30%;
     }
 
-    .divArt{
+    .divArt {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         gap: 20px;
@@ -266,7 +199,7 @@
         height: 100vh;
     }
 
-    .cardQ{
+    .cardQ {
         width: 75%;
         margin-top: 5%;
         margin-bottom: 5%;
@@ -302,52 +235,29 @@
         border-radius: var(--bs-card-border-radius);
     }
 
-    .divQuienes{
+    .divQuienes {
         display: flex;
         align-items: center;
         flex-direction: column;
     }
 
-    .cardArticulos{
+    .cardArticulos {
         width: 100%;
         height: auto;
         margin: 0 auto;
-        }
-    
+    }
+
     .card-img-top {
         width: 100%;
         height: auto;
-        }
-    .pQuienes{
-            font-size: large;
-        }
+    }
+
+    .pQuienes {
+        font-size: large;
+    }
 }
 
 @media (max-width: 768px) /*Mobile*/ {
-
-    .clipped {
-        border: 0;
-        position: absolute;
-        z-index: -1;
-        clip: rect(0 0 0 0);
-        -webkit-clip-path: inset(50%);
-        clip-path: inset(50%);
-        display: block;
-        margin: 0 -1px -1px 0;
-        overflow: hidden;
-        padding: 0;
-    }
-
-    h1 {
-        display: block;
-        font-size: 2em;
-        margin-block-start: 0.67em;
-        margin-block-end: 0.67em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        font-weight: bold;
-        unicode-bidi: isolate;
-    }
 
     p {
         color: black;
@@ -484,30 +394,6 @@
                 transform: translate3d(0, 0, 0);
             }
         }
-    }
-
-    .imgHeader {
-        height: 20%;
-        width: 30%;
-        margin-left: 35%;
-        margin-right: 35%;
-    }
-
-    .container {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-        margin-top: 5rem;
-        margin-bottom: 5rem;
-        gap: 0.1rem;
-    }
-
-    .imgFooter {
-        width: 60%;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 2rem;
     }
 
     .card {
