@@ -14,7 +14,7 @@
 }
 
 @media (min-width: 768px) /* Desktop */ {
-
+    
     .clipped {
         border: 0;
         position: absolute;
