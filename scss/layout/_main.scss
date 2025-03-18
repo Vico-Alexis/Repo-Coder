@@ -16,7 +16,7 @@
     }
 
     h2 {
-        color: turquoise;
+        color: $verde-titulos;
         text-align: center;
         font-size: 60px;
         font-family: "hind";
@@ -25,7 +25,7 @@
     }
 
     h3 p {
-        color: lightseagreen;
+        color: $verde-titulos;
         font-size: 30px;
         font-family: "hind", serif;
         text-decoration: underline;
@@ -92,7 +92,7 @@
     }
 
     .pMap {
-        color: turquoise;
+        color: $verde-titulos;
         font-family: "hind";
         font-size: 3.75rem;
         margin-top: 3rem;
@@ -275,7 +275,7 @@
     }
 
     h2 {
-        color: turquoise;
+        color: $verde-titulos;
         text-align: center;
         font-size: 5vh;
         font-family: "hind";
@@ -284,7 +284,7 @@
     }
 
     h3 p {
-        color: lightseagreen;
+        color: $verde-titulos;
         font-size: 30px;
         font-family: "hind", serif;
         text-decoration: underline;
@@ -354,7 +354,7 @@
     }
 
     .pMap {
-        color: turquoise;
+        color: $verde-titulos;
         font-family: "hind";
         font-size: 3.75rem;
         margin-top: 3rem;
