@@ -14,5 +14,44 @@
 }
 
 $azul-negocio: #4e8bb2;
-$verde-titulos: #20b2aa;
+$verde-titulos: #286a67;
 $morado-menus: #721472;
+
+@mixin h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+@mixin titulosh2 {
+    color: $verde-titulos;
+    text-align: center;
+    font-size: 60px;
+    font-family: "hind";
+    padding-top: 4rem;
+}
+
+@mixin footerConteiner ($display, $align-items, $margin-top, $margin-bottom, $gap) {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+@mixin imagenFooter ($width, $margin-left, $margin-right, $margin-top) {
+    width: $width;
+    margin-left: $margin-left;
+    margin-right: $margin-right;
+    margin-top: $margin-top;
+}
+
+@mixin colorFondo {
+    background: rgb(78, 139, 178);
+    background: linear-gradient(90deg, rgba(78, 139, 178, 1) 0%, rgba(78, 139, 178, 1) 63%, rgba(0, 212, 255, 1) 100%);
+}
