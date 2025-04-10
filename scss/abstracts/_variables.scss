@@ -13,8 +13,10 @@
     src: url(../../assets/fonts/hindmadurai-regular.ttf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
 $azul-negocio: #4e8bb2;
-$verde-titulos: #286a67;
+$titulos: #0d2774;
 $morado-menus: #721472;
 
 @mixin h1 {
@@ -29,11 +31,23 @@ $morado-menus: #721472;
 }
 
 @mixin titulosh2 {
-    color: $verde-titulos;
+    color: $titulos;
     text-align: center;
     font-size: 60px;
-    font-family: "hind";
-    padding-top: 4rem;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 4rem;   
+}
+
+@mixin titulosh3 {
+    color: $titulos;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 1%;
 }
 
 @mixin footerConteiner ($display, $align-items, $margin-top, $margin-bottom, $gap) {
@@ -49,6 +63,12 @@ $morado-menus: #721472;
     margin-left: $margin-left;
     margin-right: $margin-right;
     margin-top: $margin-top;
+}
+
+@mixin divHorario {
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
 }
 
 @mixin colorFondo {

@@ -18,27 +18,21 @@
 
     h2 {
         @include titulosh2;
-
+        font-size: 40px;
     }
 
-    h3 p {
-        color: $verde-titulos;
-        font-size: 30px;
-        font-family: "hind", serif;
-        text-decoration: underline;
-        margin-bottom: 1%;
+    h3 {
+        @include titulosh3;
     }
 
     h3.h3a {
-        margin-left: 1rem;
-        margin-right: 70%;
+        @include titulosh3;
+        font-size: 20px;
     }
 
     h4 {
-        font-size: 20px;
-        font-family: "hind", serif;
-        margin-left: 2rem;
-        margin-right: 70%;
+        @include titulosh3;
+        font-size: 15px;
     }
 
     .h4a {
@@ -46,6 +40,11 @@
         font-size: 18px;
         font-family: "hind", serif;
     }
+
+    .h4a:hover{
+        background-color: hotpink;
+        transition: background-color 0.5s;
+    }    
 
     .h4ul {
         margin-left: 2rem;
@@ -63,6 +62,11 @@
         font-size: 30px;
         margin-right: 2%;
         font-family: "hind", serif;
+    }
+
+    .ca:hover{
+        background-color: hotpink;
+        transition: background-color 0.5s;
     }
 
     .img {
@@ -89,7 +93,7 @@
     }
 
     .pMap {
-        color: $verde-titulos;
+        color: $titulos;
         font-family: "hind";
         font-size: 3.75rem;
         margin-top: 3rem;
@@ -165,10 +169,8 @@
     }
 
     .divHora {
-        text-align: center;
-        margin-bottom: 3rem;
-        margin-top: 3rem;
-        font-size: x-large;
+        @include divHorario;
+        font-size: 35px;
     }
 
     .divIcons {
@@ -302,35 +304,22 @@
     }
 
     h2 {
-        color: $verde-titulos;
-        text-align: center;
-        font-size: 8vh;
-        font-family: "hind";
-        padding-top: 4rem;
-
+        @include titulosh2;
+        font-size: 40px;
     }
 
-    h3 p {
-        color: $verde-titulos;
-        font-size: 30px;
-        font-family: "hind", serif;
-        text-decoration: underline;
-        margin-bottom: 1%;
+    h3 {
+        @include titulosh3;
     }
 
     h3.h3a {
-        color: black;
-        font-size: 1.2rem;
-        margin-left: 1rem;
-        margin-right: 10%;
+        @include titulosh3;
+        font-size: 20px;
     }
 
     h4 {
-        color: darkmagenta;
-        font-size: 1rem;
-        font-family: "hind", serif;
-        margin-left: 2rem;
-        margin-right: 10%;
+        @include titulosh3;
+        font-size: 15px;
     }
 
     .h4a {
@@ -364,6 +353,7 @@
     }
 
     .img1 {
+        width: 20px;
         margin-left: 2%;
     }
 
@@ -381,7 +371,7 @@
     }
 
     .pMap {
-        color: $verde-titulos;
+        color: $titulos;
         font-family: "hind";
         font-size: 3.75rem;
         margin-top: 3rem;
@@ -439,10 +429,8 @@
     }
 
     .divHora {
-        text-align: center;
-        margin-bottom: 3rem;
-        margin-top: 3rem;
-        font-size: large;
+        @include divHorario;
+        font-size: 25px;
     }
 
     .divIcons {

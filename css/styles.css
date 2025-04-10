@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 @font-face {
   font-family: "monserrat";
   src: url(../../assets/fonts/montserrat-variablefont_wght.ttf);
@@ -91,33 +92,52 @@
     text-decoration: none;
   }
   h2 {
-    color: #286a67;
+    color: #0d2774;
     text-align: center;
     font-size: 60px;
-    font-family: "hind";
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
     padding-top: 4rem;
+    font-size: 40px;
   }
-  h3 p {
-    color: #286a67;
+  h3 {
+    color: #0d2774;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 30px;
-    font-family: "hind", serif;
     text-decoration: underline;
     margin-bottom: 1%;
   }
   h3.h3a {
-    margin-left: 1rem;
-    margin-right: 70%;
+    color: #0d2774;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 1%;
+    font-size: 20px;
   }
   h4 {
-    font-size: 20px;
-    font-family: "hind", serif;
-    margin-left: 2rem;
-    margin-right: 70%;
+    color: #0d2774;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 1%;
+    font-size: 15px;
   }
   .h4a {
     color: purple;
     font-size: 18px;
     font-family: "hind", serif;
+  }
+  .h4a:hover {
+    background-color: hotpink;
+    transition: background-color 0.5s;
   }
   .h4ul {
     margin-left: 2rem;
@@ -133,6 +153,10 @@
     font-size: 30px;
     margin-right: 2%;
     font-family: "hind", serif;
+  }
+  .ca:hover {
+    background-color: hotpink;
+    transition: background-color 0.5s;
   }
   .img {
     margin-right: 5%;
@@ -154,7 +178,7 @@
     float: left;
   }
   .pMap {
-    color: #286a67;
+    color: #0d2774;
     font-family: "hind";
     font-size: 3.75rem;
     margin-top: 3rem;
@@ -225,7 +249,7 @@
     text-align: center;
     margin-bottom: 3rem;
     margin-top: 3rem;
-    font-size: x-large;
+    font-size: 35px;
   }
   .divIcons {
     text-align: center;
@@ -339,31 +363,43 @@
     text-decoration: none;
   }
   h2 {
-    color: #286a67;
+    color: #0d2774;
     text-align: center;
-    font-size: 8vh;
-    font-family: "hind";
+    font-size: 60px;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
     padding-top: 4rem;
+    font-size: 40px;
   }
-  h3 p {
-    color: #286a67;
+  h3 {
+    color: #0d2774;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 30px;
-    font-family: "hind", serif;
     text-decoration: underline;
     margin-bottom: 1%;
   }
   h3.h3a {
-    color: black;
-    font-size: 1.2rem;
-    margin-left: 1rem;
-    margin-right: 10%;
+    color: #0d2774;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 1%;
+    font-size: 20px;
   }
   h4 {
-    color: darkmagenta;
-    font-size: 1rem;
-    font-family: "hind", serif;
-    margin-left: 2rem;
-    margin-right: 10%;
+    color: #0d2774;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 1%;
+    font-size: 15px;
   }
   .h4a {
     font-size: 1rem;
@@ -391,6 +427,7 @@
     margin-bottom: 10rem;
   }
   .img1 {
+    width: 20px;
     margin-left: 2%;
   }
   .divMap {
@@ -405,7 +442,7 @@
     float: left;
   }
   .pMap {
-    color: #286a67;
+    color: #0d2774;
     font-family: "hind";
     font-size: 3.75rem;
     margin-top: 3rem;
@@ -461,7 +498,7 @@
     text-align: center;
     margin-bottom: 3rem;
     margin-top: 3rem;
-    font-size: large;
+    font-size: 25px;
   }
   .divIcons {
     text-align: center;
