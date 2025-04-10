@@ -20,7 +20,7 @@
         text-align: center;
         font-size: 60px;
         font-family: "hind";
-        margin-top: 4rem;
+        padding-top: 4rem;
 
     }
 
@@ -159,7 +159,7 @@
     }
 
     .card2 {
-        margin-left: 1px !important;
+        margin-left: 1px;
     }
 
     .carousel {
@@ -255,6 +255,30 @@
     .pQuienes {
         font-size: large;
     }
+
+    .divConteiner{
+        padding-bottom: 5%;
+    }
+
+    main{
+        background-color: $azul-negocio;
+    }
+
+    .btn-group-vertical{
+        display: none;
+    }
+
+    .col{
+        display: flex;
+        width: 200px;
+        height: auto;
+      
+    }
+
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
 
 @media (max-width: 768px) /*Mobile*/ {
@@ -277,9 +301,9 @@
     h2 {
         color: $verde-titulos;
         text-align: center;
-        font-size: 5vh;
+        font-size: 8vh;
         font-family: "hind";
-        margin-top: 4rem;
+        padding-top: 4rem;
 
     }
 
@@ -400,9 +424,11 @@
         display: column;
         text-align: center;
         margin-top: 10%;
+        padding-top: 10%;
         margin-left: 30%;
         margin-right: 30%;
-        margin-bottom: 12%;
+        margin-bottom: 10%;
+        padding-bottom: 12%;
     }
 
     .carousel {
@@ -436,9 +462,9 @@
     }
 
     .cardArticulos{
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
     }
 
     .card-img-top {
@@ -448,5 +474,37 @@
 
     .pQuienes{
         font-size: medium;
+    }
+
+    .divConteiner{
+        padding-bottom: 5%;
+    }
+
+    main{
+        background-color: $azul-negocio;
+    }
+
+    .navArt{
+       display: none;
+    }
+
+    .col{
+        display: flex;
+        width: 200px;
+        height: auto;
+      
+    }
+
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .btn-group-vertical{
+        padding-bottom: 10%;
+    }
+
+    .artMovile{
+        padding-bottom: 10%;
     }
 }
